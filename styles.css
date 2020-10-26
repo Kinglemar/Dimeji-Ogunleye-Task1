@@ -1,0 +1,709 @@
+
+/* ******************STYLES HACK FOR ENVIVO TASK******************* */
+
+
+/* ***************GLOBAL STYLES**************** */
+
+body{
+    /* margin: 2%; */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+}
+
+nav{
+    height:13vh;
+    width: 100%;
+    /* background-color: rgb(233, 233, 233); */
+    border-bottom:rgb(231, 231, 231) 3px solid ;
+    padding: 0px;
+}
+
+sub{
+    color: gold;
+}
+
+
+/* *******************NAVIGATION SECTION****************** */
+
+
+.main-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.intro{
+    display: flex;
+    align-items: center;
+}
+
+.intro h1 {
+    margin: 0;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    list-style: none;
+    text-decoration: none;
+    padding: 0px;
+}
+
+.underline{
+    padding-bottom: 2px;
+    margin: 0;
+    border-bottom: solid 2px gold;
+}
+
+.link-container{
+    margin-right: 14px;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-content: center;
+    margin-left: 8px;
+}
+
+.nav-child{
+    padding: 0 10px 0 30px;
+    margin-right: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+ul li a h5 {
+    margin: 0;
+}
+
+.scale{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.link-nav{
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home{
+    display: flex;
+    height: 16px;
+    margin: 0 177px;
+    padding: 25px;
+    justify-content: left;
+}
+
+.contain{
+    padding-bottom: 20px;
+}
+
+.push{
+    margin-left: 5px;
+    font-weight: bolder;
+}
+.feint{
+    color: lightgrey;
+}
+.aside{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+/* *****************STORY SECTION******************* */
+
+.family-container{
+    display: flex;
+    margin: 0 180px;
+    /* margin: 0 160px 0 225px; */
+    padding: 10px;
+    margin-bottom: 40px;
+
+}
+
+.follow-us{
+    padding: 12px;
+    border-radius: 50%;
+    background-color: rgb(238, 236, 236);
+    margin-right: 10px;
+}
+
+.side-text{
+    padding-left: 45px;
+}
+
+.dark-head{
+    font-weight: bolder;
+    font-size: 17px;
+}
+.resp > img{
+    margin-left: 0px;
+}
+
+
+
+/* ***************************SUBSCRIBE AREA************************** */
+
+.subscribe{
+    height: 130px;
+    background-color: rgb(226, 223, 223);
+    margin: 0 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    margin: 0 40px;
+}
+.lift{
+    padding: 35px 0 0 0;
+    font-weight: bolder;
+    font-size: 12px;
+    margin: 0px;
+}
+
+.drop{
+    padding-top: 15px;
+    margin: 0px;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+}
+
+input{
+    width: 370px;
+    height: 40px;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+button{
+    width: 130px;
+    height: 46px;
+    border-radius: 4px;
+    font-weight: bolder;
+    margin-right: 40px;
+    background-color: gold;
+}
+
+/* *****************PICTURE AREA******************** */
+
+.picture-container{
+    margin: 0 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.pictures{
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+
+/* ***************************ADVERT AREA***************************** */
+
+.advert{
+    display: flex;
+    justify-content: center;
+    margin: 0 12.5rem;
+}
+.about-us{
+    flex:0 1 25rem;
+    margin-right: 15px;
+}
+
+.location{
+    display: flex;
+    align-content: center;
+}
+.line-about{
+    display: flex;
+    flex:0 1 25rem;
+    align-items: center;
+    margin-right: 5px;
+}
+.line-about > p{
+    margin-top: 0px;
+}
+.line-cloud > p{
+    margin-top: 0px;
+}
+
+.line-post{
+    display: flex;
+    flex:0 1 25rem;
+    align-items: center;
+    margin-right: 0.3rem;
+}
+.line-cloud{
+    display: flex;
+    flex:0 1 25rem;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.post{
+    flex: 0 1 25rem;
+    margin-right: 1rem;
+}
+
+.cloud{
+    flex: 0 1 25rem;
+    margin-top: 0px;
+    margin-left: 0.3rem;
+}
+.about-us p{
+    font-size: 12px;
+    padding: 0px;
+}
+.post p{
+    font-size: 13px;
+    padding: 0px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.location{
+    display: flex;
+    font-size: 11px;
+    align-items: center;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.phone{
+    display: flex;
+    font-size: 11px;
+    align-items: center;
+    padding: 0px;
+}
+
+.headphone{
+    display: flex;
+    font-size: 11px;
+    align-items: center;
+    padding: 0px;
+}
+
+.scope{
+    display: flex;
+    padding-bottom: 16px;
+    font-size: 9px;
+    margin-top: 8px;
+}
+.rain{
+    display: flex;
+    padding-bottom: 16px;
+    font-size: 9px;
+}
+.file{
+    display: flex;
+    padding-bottom: 16px;
+    font-size: 9px;
+}
+
+.inner{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.side{
+    display: flex;
+}
+
+.side > p{
+    font-size: 9px;
+}
+
+.first-line{
+    font-size: 13px;
+    display: flex;
+}
+.second-line{
+    font-size: 13px;
+    display: flex;
+}
+
+.first-line > p{
+    padding: 10px;
+    background-color: rgb(209, 202, 202);
+    margin-right: 12px;
+    margin-top: 11px;
+    margin-bottom: 0px;
+}
+
+.second-line > p{
+    padding: 10px;
+    background-color: rgb(209, 202, 202);
+    margin-right: 12px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.follow{
+    display: flex;
+    flex:0 1 25rem;
+    align-items: center;
+    margin-right: 5px;
+    margin-top: 2px;
+}
+
+.follow > p{
+    margin-top: 0px;
+}
+.clone{
+    padding: 12px;
+    border-radius: 50%;
+    background-color: rgb(238, 236, 236);
+    margin-right: 10px;
+}
+
+.slide{
+    margin-top: 15px;
+}
+
+.copyright{
+    font-size: 13px;
+    color: gray;
+    text-align: center;
+    font-weight: 400;
+}
+
+.reflex{
+    margin: 0 200px;
+    color: rgb(230, 228, 228);
+}
+
+/* **************************RESPONSIVE STYLES***************************** */
+
+/* *******************NAVIGATION AREA******************** */
+
+@media screen and (max-width:800px){
+    .main-area{
+        display: flex;
+        width: 80%;
+        margin: 0 8%;
+    }
+
+    .nav-child{
+        align-items: center;
+        text-decoration: none;
+        color: black;
+        font-size: 8px;
+    }
+
+    .link-nav{
+        padding: 5px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .link-nav img{
+        width: 8px;
+        height: 8px;
+    }
+
+    .menu{
+        display: flex;
+        align-items: center;
+        list-style: none;
+        text-decoration: none;
+        padding: 0px;
+    }
+
+    .intro{
+        justify-content: left;
+        display: flex;
+        align-items: center;
+        font-size: 10px;
+    }
+
+    .home{
+        margin-left: 3%;
+    }
+}
+
+/* *****************STORY AREA******************* */
+@media screen and (max-width:1060px){
+    .family-container{
+        display: flex;
+        margin: 0 2%
+        }
+    
+        .family img{
+            width: 128px;
+        }
+    
+        .family-container p{
+            font-size: 12px;
+        }
+    
+        .family-container h1{
+            font-size: 15px;
+        }
+    
+        .family{
+            margin: 0 5%;
+        }
+    
+        .follow-us{
+            width: 5px;
+            background-color: rgb(238, 236, 236);
+            margin:25 0px;
+            height: 5px;
+        }
+
+        .follow-us > img{
+            padding: 6px;
+            /* margin: 20 0 20 0px; */
+            border-radius: 40%;
+            background-color: rgb(238, 236, 236);
+            margin-right: 10px;
+            height: 8px;
+            width: 8px;
+        }
+        .resp{
+            margin-bottom: 12px;
+        }
+}
+
+/* *********************SUBSCRIBE AREA********************* */
+@media screen and (max-width:1200px){
+    .subscribe{
+        height: 200px;
+        background-color: rgb(226, 223, 223);
+        margin: 0 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .subscribe > p{
+        font-size: 2px;
+        padding: 2%;
+        margin-bottom: 12%;
+    }
+
+    .subscribe > h1{
+        font-size: 1px;
+        padding: 5%;
+        margin-top: 8%;
+    }
+    
+    input{
+        max-width: 120px;
+        height: 35px;
+        border-radius: 4px;
+    }
+    button{
+        max-width: 100px;
+        height: 30px;
+        border-radius: 4px;
+        font-weight: bolder;
+        background-color: gold;
+        margin-top: 5px;
+    }
+
+    .drop{
+        padding-top: 0px;
+        margin: 0px;
+    }
+
+    .drop{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .reflex{
+        margin: 0 3%;
+        color: rgb(230, 228, 228);
+    }
+    
+}
+
+/* ****************RESPONSIVE PICTURES**************** */
+@media screen and (max-width:700px){
+    .picture-container{
+        margin: 0 2%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .pictures{
+        display: flex;
+        justify-content: center;
+    }
+    .pictures img{
+        width: 17%;
+        height: 17%;
+        padding: 5px;
+    }
+}
+
+/* *********************MOBILE PHONES********************** */
+
+@media screen and (max-width:400px){
+
+
+    .side-text > p{
+        font-size: 0.5rem;
+    }
+
+    .side-text > h1{
+        font-size: 0.7rem;
+    }
+
+    .dark-head{
+        font-size: 0.7rem;
+    }
+    .subscribe{
+        width: 100%;
+        height: 50px;
+        background-color: rgb(226, 223, 223);
+        margin: 0 5%;
+        display: flex;
+        align-items: center;;
+        justify-content: center;
+    }
+
+    .left > p{
+        font-size: 0.5rem;
+        padding: 2%;
+        margin-bottom: 12%;
+    }
+
+    .left > h1{
+        font-size: 0.2rem;
+        padding: 5%;
+        margin-top: 8%;
+    }
+
+    .right > p{
+        font-size: 0.2rem;
+    }
+    
+    input{
+        max-width: 40px;
+        height: 15px;
+        border-radius: 4px;
+        font-size: 0.2rem;
+    }
+    button{
+        max-width: 50px;
+        height: 15px;
+        border-radius: 4px;
+        font-weight: bolder;
+        background-color: gold;
+        margin-top: 5px;
+        font-size: 0.2rem;
+    }
+
+    .left{
+        margin-top: 5px;
+    }
+    .lift{
+        padding: 35px 0 0 0;
+        font-weight: bolder;
+        font-size: 12px;
+        margin: 0px;
+    }
+    
+    .drop{
+        padding-top: 5px;
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+    .line-post{
+        display: flex;
+        flex:0 1 25rem;
+        align-items: center;
+        margin-right: 0.3rem;
+    }
+
+    .advert{
+        display: flex;
+        justify-content: center;
+        margin: 0 10%;
+        font-size: 0.5rem;
+        width: 80%;
+    }
+
+    .advert-space{
+        width: 80%;
+    }
+
+    .about-us{
+        flex:0 1 20%;
+        margin-right: 15px;
+    }
+
+    .about-us p{
+        font-size: 0.5rem;
+        padding: 0px;
+}
+
+    .post p{
+        font-size: 0.5rem;
+    }
+
+    .post img{
+        width: 1rem;
+        height: 1rem;
+    }
+
+    .side img{
+        width: 8px;
+        height: 8px;
+    }
+
+    .cloud p{
+        font-size: 0.5rem;
+    }
+
+    .clone{
+        padding: 6px;
+        border-radius: 50%;
+        background-color: rgb(238, 236, 236);
+        margin-right: 10px;
+    }
+    .clone img{
+        width: 8px;
+        height: 8px;
+    }
+
+    .copyright{
+        font-size: 0.5rem;
+        color: gray;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    .reflex{
+        margin: 0 2%;
+        color: rgb(230, 228, 228);
+    }
+
+    .line-post{
+        display: flex;
+        flex:0 1 25rem;
+        align-items: center;
+        margin-right: 0.3rem;
+        font-size: 0.3rem;
+    }
+}
+
